@@ -24,10 +24,11 @@
 
 <body>
     <h1>Answer the questions</h1>
-    {Question.1}
+    Question.1
     <div style="margin-bottom:20px;">
         <form onsubmit="event.preventDefault(); submitAnswer('{{ qid }}');">
-            <label>{What is the capital of India ?}</label><br>
+            <label>What is the capital of India ?</label><br>
+            <
             <input type="text" id="answer_{{ qid }}" name="answer" required>
             <button type="submit">Submit</button>
             <span id="result_{{ qid }}"></span>
