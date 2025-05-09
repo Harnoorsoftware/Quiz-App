@@ -33,11 +33,6 @@
             <span id="result_{{ qid }}"></span>
         </form>
     </div>
-    {if ( answer = "new delhi".upper) 
-    print ("Correct !")
-    }
-
-    else print ("Incorrect !")
 </body>
 
 </html>
