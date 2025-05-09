@@ -1,4 +1,3 @@
-# Quiz-App
 <!DOCTYPE html>
 <html>
 
@@ -25,7 +24,7 @@
 
 <body>
     <h1>Answer the questions</h1>
-    {% for qid, q in}
+    {"What is the capital of India ?"}
     <div style="margin-bottom:20px;">
         <form onsubmit="event.preventDefault(); submitAnswer('{{ qid }}');">
             <label>{{ q.question }}</label><br>
